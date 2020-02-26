@@ -1,0 +1,87 @@
+.A{
+    background-color: #C71585;
+  }
+
+  .B{
+    background-color: #00FA9A;
+  }
+  .C{
+    background-color: red;
+  }
+  .D{
+    background-color: #FFFF00;
+  }
+  .E{
+    background-color:#A0522D
+  }
+  .F{
+    background-color: #00008B;
+  }
+  .G{
+    background-color: #808080
+  }
+  .H{
+    background-color: #800080
+  }
+  .I{
+    background-color: #FFE4E1
+  }
+  .J{
+    background-color: #ADFF2F
+  }
+  .K{
+    background-color: #2F4F4F
+  }
+  #gagne {
+    color :#32CD32;
+    font-size : 30px;
+    margin : 1.5em;
+  }
+  #main_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-container {
+    width:600px;
+    height:600px;
+    background-color: #ADD8E6;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 0px;
+    font-size: 15px;
+  }
+  .border{
+    background-color:black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .pannel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .control{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    margin: 1.5em;
+  }
+  button {
+    background-color:#99ffff;
+    border: none;
+    color: black;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin : 0.2em;
+}
+button:hover {
+  background-color: #00b3b3;
+  color: white;
+}

@@ -1,0 +1,11 @@
+moves.cmo : port.cmi moves.cmi
+moves.cmx : port.cmx moves.cmi
+moves.cmi : port.cmi
+orush.cmo : dom.cmi
+orush.cmx : dom.cmx
+port.cmo : port.cmi
+port.cmx : port.cmi
+port.cmi :
+solver.cmo : port.cmi moves.cmi solver.cmi
+solver.cmx : port.cmx moves.cmx solver.cmi
+solver.cmi : port.cmi moves.cmi
